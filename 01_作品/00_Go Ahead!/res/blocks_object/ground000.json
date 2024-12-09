@@ -1,0 +1,83 @@
+{
+    "$schema": "../schema/blocks_object_schema.json",
+    "BlocksBlock": [
+        {
+            "TAG": "ground_child_grass",
+            "MASS": 0.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b1",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "DEEP_GREEN",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 10.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 1.0,
+                "y": 0.2,
+                "z": 1.0
+            }
+        },
+        {
+            "TAG": "ground_child_ground",
+            "MASS": 0.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b1",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "GROUND",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 1.0,
+                "y": 0.8,
+                "z": 1.0
+            }
+        }
+    ]
+}
