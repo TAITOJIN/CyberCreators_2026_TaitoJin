@@ -23,5 +23,18 @@
 🔗[Youtube](https://www.youtube.com/@jobigame)
 
 ## 📁 Directory
-📁exe<br>
- ┣ <br>
+📁01_作品<br>
+ ┣ 📁00_Go Ahead!<br>
+ ┃            ┣ 📁res<br>
+ ┃            ┣ 📄Go Ahead!.exe<br>
+ ┃            ┗ 📄readme.txt<br>
+ ┣ 📁01_Particly Battle!<br>
+ ┃            ┣ 📁res<br>
+ ┃            ┗ 📄ParticlyBattle.exe<br>
+ ┣ 02_BALL ROLLING<br>
+ ┃            ┣ 📁data<br>
+ ┃            ┗ 📄BALL ROLLING.exe<br>
+ ┗ 03_AVOID LINE<br>
+              ┣ 📁Data<br>
+              ┣ 📄HGS Autumn.exe<br>
+              ┗ 📄readme.txt<br>
