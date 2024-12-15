@@ -30,7 +30,7 @@
  ┃     &nbsp;&nbsp;&nbsp;&nbsp;       ┣ 📁res<br>
  ┃     &nbsp;&nbsp;&nbsp;&nbsp;       ┣ 📄Go Ahead!.exe<br>
  ┃     &nbsp;&nbsp;&nbsp;&nbsp;       ┗ 📄readme.txt<br>
- ┣ 📁01_Particly Battle!<br>
+ ┣ 📁01_Particly Battle<br>
  ┃            ┣ 📁res<br>
  ┃            ┗ 📄ParticlyBattle.exe<br>
  ┣ 02_BALL ROLLING<br>
