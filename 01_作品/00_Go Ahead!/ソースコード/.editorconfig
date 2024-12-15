@@ -1,0 +1,23 @@
+# https://editorconfig.org/
+# Suppress: EC116
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+end_of_line = crlf
+charset = utf-8
+
+[*.fx]
+indent_style = tab
+charset = utf-8
+
+[*.{cpp,h}]
+indent_style = tab
+charset = utf-8-bom
+
+[*.md]
+trim_trailing_whitespace = false

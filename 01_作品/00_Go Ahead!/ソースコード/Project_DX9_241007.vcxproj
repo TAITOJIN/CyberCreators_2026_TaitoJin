@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{9eb61b4c-ae41-4dc7-9077-f41fa73c52d3}</ProjectGuid>
+    <RootNamespace>ProjectDX9241007</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="debug_win32_props.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="release_win32_props.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</ExternalIncludePath>
+    <LibraryPath>$(SolutionDir)libs\bullet3-master\include\$(Configuration);C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</ExternalIncludePath>
+    <LibraryPath>$(SolutionDir)libs\bullet3-master\include\$(Configuration);C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</ExternalIncludePath>
+    <LibraryPath>$(SolutionDir)libs\bullet3-master\include\$(Configuration);C:\Program Files %28x64%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</ExternalIncludePath>
+    <LibraryPath>$(SolutionDir)libs\bullet3-master\include\$(Configuration);C:\Program Files %28x64%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\Users\student\Documents\Visual Studio 2019\02_Libraries\magic_enum-master\magic_enum-master\include\magic_enum;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json-schema-validator-main\json-schema-validator-main\src;$(SolutionDir)libs\inifile-cpp\include;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\bullet3-master\bullet3-master\src;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json\include;$(SolutionDir)libs\imgui-add-ons\include;$(SolutionDir)libs\imgui-notify\include;$(SolutionDir)libs\imgui-docking\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json-schema-validator-main\json-schema-validator-main\build\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;winmm.lib;dinput8.lib;xinput.lib;Bullet2FileLoader.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;Bullet3OpenCL_clew.lib;BulletCollision.lib;BulletDynamics.lib;BulletExampleBrowserLib.lib;BulletFileLoader.lib;BulletInverseDynamics.lib;BulletInverseDynamicsUtils.lib;BulletRobotics.lib;BulletRoboticsGUI.lib;BulletSoftBody.lib;BulletWorldImporter.lib;BulletXmlWorldImporter.lib;BussIK.lib;clsocket.lib;ConvexDecomposition.lib;GIMPACTUtils.lib;gwen.lib;HACD.lib;LinearMath.lib;OpenGLWindow.lib;nlohmann_json_schema_validator.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\Users\student\Documents\Visual Studio 2019\02_Libraries\magic_enum-master\magic_enum-master\include\magic_enum;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json-schema-validator-main\json-schema-validator-main\src;$(SolutionDir)libs\inifile-cpp\include;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\bullet3-master\bullet3-master\src;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json\include;$(SolutionDir)libs\imgui-add-ons\include;$(SolutionDir)libs\imgui-notify\include;$(SolutionDir)libs\imgui-docking\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json-schema-validator-main\json-schema-validator-main\build\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;winmm.lib;dinput8.lib;xinput.lib;Bullet2FileLoader.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;Bullet3OpenCL_clew.lib;BulletCollision.lib;BulletDynamics.lib;BulletExampleBrowserLib.lib;BulletFileLoader.lib;BulletInverseDynamics.lib;BulletInverseDynamicsUtils.lib;BulletRobotics.lib;BulletRoboticsGUI.lib;BulletSoftBody.lib;BulletWorldImporter.lib;BulletXmlWorldImporter.lib;BussIK.lib;clsocket.lib;ConvexDecomposition.lib;GIMPACTUtils.lib;gwen.lib;HACD.lib;LinearMath.lib;OpenGLWindow.lib;nlohmann_json_schema_validator.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\Users\student\Documents\Visual Studio 2019\02_Libraries\magic_enum-master\magic_enum-master\include\magic_enum;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json-schema-validator-main\json-schema-validator-main\src;$(SolutionDir)libs\inifile-cpp\include;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\bullet3-master\bullet3-master\src;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json\include;$(SolutionDir)libs\imgui-add-ons\include;$(SolutionDir)libs\imgui-notify\include;$(SolutionDir)libs\imgui-docking\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json-schema-validator-main\json-schema-validator-main\build\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;winmm.lib;dinput8.lib;xinput.lib;Bullet2FileLoader.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;Bullet3OpenCL_clew.lib;BulletCollision.lib;BulletDynamics.lib;BulletExampleBrowserLib.lib;BulletFileLoader.lib;BulletInverseDynamics.lib;BulletInverseDynamicsUtils.lib;BulletRobotics.lib;BulletRoboticsGUI.lib;BulletSoftBody.lib;BulletWorldImporter.lib;BulletXmlWorldImporter.lib;BussIK.lib;clsocket.lib;ConvexDecomposition.lib;GIMPACTUtils.lib;gwen.lib;HACD.lib;LinearMath.lib;OpenGLWindow.lib;nlohmann_json_schema_validator.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\Users\student\Documents\Visual Studio 2019\02_Libraries\magic_enum-master\magic_enum-master\include\magic_enum;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json-schema-validator-main\json-schema-validator-main\src;$(SolutionDir)libs\inifile-cpp\include;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\bullet3-master\bullet3-master\src;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json\include;$(SolutionDir)libs\imgui-add-ons\include;$(SolutionDir)libs\imgui-notify\include;$(SolutionDir)libs\imgui-docking\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json-schema-validator-main\json-schema-validator-main\build\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;winmm.lib;dinput8.lib;xinput.lib;Bullet2FileLoader.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;Bullet3OpenCL_clew.lib;BulletCollision.lib;BulletDynamics.lib;BulletExampleBrowserLib.lib;BulletFileLoader.lib;BulletInverseDynamics.lib;BulletInverseDynamicsUtils.lib;BulletRobotics.lib;BulletRoboticsGUI.lib;BulletSoftBody.lib;BulletWorldImporter.lib;BulletXmlWorldImporter.lib;BussIK.lib;clsocket.lib;ConvexDecomposition.lib;GIMPACTUtils.lib;gwen.lib;HACD.lib;LinearMath.lib;OpenGLWindow.lib;nlohmann_json_schema_validator.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="libs\imgui-add-ons\include\add-ons.cpp" />
+    <ClCompile Include="libs\imgui-docking\include\imgui.cpp" />
+    <ClCompile Include="libs\imgui-docking\include\imgui_demo.cpp" />
+    <ClCompile Include="libs\imgui-docking\include\imgui_draw.cpp" />
+    <ClCompile Include="libs\imgui-docking\include\imgui_impl_dx9.cpp" />
+    <ClCompile Include="libs\imgui-docking\include\imgui_impl_win32.cpp" />
+    <ClCompile Include="libs\imgui-docking\include\imgui_tables.cpp" />
+    <ClCompile Include="libs\imgui-docking\include\imgui_widgets.cpp" />
+    <ClCompile Include="src\application\application.cpp" />
+    <ClCompile Include="src\game_manager\game_manager.cpp" />
+    <ClCompile Include="src\game_object\2d\game_object_2d.cpp" />
+    <ClCompile Include="src\game_object\2d\goal_effect.cpp" />
+    <ClCompile Include="src\game_object\2d\snow_2d.cpp" />
+    <ClCompile Include="src\game_object\2d\texture_2d_animation.cpp" />
+    <ClCompile Include="src\game_object\3d\block\blocks_object_base.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_base.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_blazing.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_blazing_emitter.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_blocks.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_burnt.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_change_state.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_disappear.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_dummy.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_fall.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_freeze_water_drop.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_freeze_water_drop_emitter.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_goal.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_ice.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_impact.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_move.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_physics.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_push.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_push_on_snow.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_repair.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_rotate.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_shadow.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_small_pieces.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_smoke.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_sound.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_water.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_water_drop.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_water_drop_emitter.cpp" />
+    <ClCompile Include="src\game_object\3d\block\block_wood.cpp" />
+    <ClCompile Include="src\game_object\3d\character\player.cpp" />
+    <ClCompile Include="src\game_object\3d\event_point.cpp" />
+    <ClCompile Include="src\game_object\3d\flame.cpp" />
+    <ClCompile Include="src\game_object\3d\game_object_3d.cpp" />
+    <ClCompile Include="src\game_object\3d\item\coin.cpp" />
+    <ClCompile Include="src\game_object\3d\model.cpp" />
+    <ClCompile Include="src\game_object\3d\polygon_3d.cpp" />
+    <ClCompile Include="src\game_object\3d\shadow.cpp" />
+    <ClCompile Include="src\game_object\3d\spawn_point.cpp" />
+    <ClCompile Include="src\game_object\3d\updraft.cpp" />
+    <ClCompile Include="src\game_object\3d\updraft_effect_emitter.cpp" />
+    <ClCompile Include="src\game_object\3d\water_wheel.cpp" />
+    <ClCompile Include="src\game_object\game_object.cpp" />
+    <ClCompile Include="src\game_object\game_object_factory.cpp" />
+    <ClCompile Include="src\game_object\impact.cpp" />
+    <ClCompile Include="src\game_object\snow_emitter_2d.cpp" />
+    <ClCompile Include="src\game_object\spring_emitter_2d.cpp" />
+    <ClCompile Include="src\input\input_base.cpp" />
+    <ClCompile Include="src\input\input_gamepad.cpp" />
+    <ClCompile Include="src\input\input_keyboard.cpp" />
+    <ClCompile Include="src\input\input_manager.cpp" />
+    <ClCompile Include="src\input\input_mouse.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\renderer\renderer.cpp" />
+    <ClCompile Include="src\resource\font.cpp" />
+    <ClCompile Include="src\resource\resource_manager.cpp" />
+    <ClCompile Include="src\resource\resource_material.cpp" />
+    <ClCompile Include="src\resource\resource_model.cpp" />
+    <ClCompile Include="src\resource\resource_texture.cpp" />
+    <ClCompile Include="src\resource\sound.cpp" />
+    <ClCompile Include="src\scene\elements\camera.cpp" />
+    <ClCompile Include="src\scene\elements\event_manager.cpp" />
+    <ClCompile Include="src\scene\elements\light.cpp" />
+    <ClCompile Include="src\scene\elements\physics_world.cpp" />
+    <ClCompile Include="src\scene\elements\shared_data.cpp" />
+    <ClCompile Include="src\scene\elements\time_manager.cpp" />
+    <ClCompile Include="src\scene\scene_base.cpp" />
+    <ClCompile Include="src\scene\scene_debug.cpp" />
+    <ClCompile Include="src\scene\scene_game.cpp" />
+    <ClCompile Include="src\scene\scene_load.cpp" />
+    <ClCompile Include="src\scene\scene_manager.cpp" />
+    <ClCompile Include="src\scene\scene_result.cpp" />
+    <ClCompile Include="src\scene\scene_title.cpp" />
+    <ClCompile Include="src\system\critical_section.cpp" />
+    <ClCompile Include="src\system\thread_pool.cpp" />
+    <ClCompile Include="src\system\tick.cpp" />
+    <ClCompile Include="src\utility\calculate.cpp" />
+    <ClCompile Include="src\utility\collision.cpp" />
+    <ClCompile Include="src\utility\custom_deleter.cpp" />
+    <ClCompile Include="src\utility\custom_json.cpp" />
+    <ClCompile Include="src\utility\enum.cpp" />
+    <ClCompile Include="src\utility\file.cpp" />
+    <ClCompile Include="src\utility\flag_manager.cpp" />
+    <ClCompile Include="src\utility\random_generator.cpp" />
+    <ClCompile Include="src\utility\string.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs\imgui-add-ons\include\add-ons.h" />
+    <ClInclude Include="libs\imgui-docking\include\glyph_ranges.h" />
+    <ClInclude Include="libs\imgui-docking\include\imconfig.h" />
+    <ClInclude Include="libs\imgui-docking\include\imgui.h" />
+    <ClInclude Include="libs\imgui-docking\include\imgui_impl_dx9.h" />
+    <ClInclude Include="libs\imgui-docking\include\imgui_impl_win32.h" />
+    <ClInclude Include="libs\imgui-docking\include\imgui_internal.h" />
+    <ClInclude Include="libs\imgui-docking\include\imstb_rectpack.h" />
+    <ClInclude Include="libs\imgui-docking\include\imstb_textedit.h" />
+    <ClInclude Include="libs\imgui-docking\include\imstb_truetype.h" />
+    <ClInclude Include="src\application\application.h" />
+    <ClInclude Include="src\constants.h" />
+    <ClInclude Include="src\game_manager\game_manager.h" />
+    <ClInclude Include="src\game_object\2d\game_object_2d.h" />
+    <ClInclude Include="src\game_object\2d\goal_effect.h" />
+    <ClInclude Include="src\game_object\2d\snow_2d.h" />
+    <ClInclude Include="src\game_object\2d\texture_2d_animation.h" />
+    <ClInclude Include="src\game_object\3d\block\blocks_object_base.h" />
+    <ClInclude Include="src\game_object\3d\block\block_base.h" />
+    <ClInclude Include="src\game_object\3d\block\block_blazing.h" />
+    <ClInclude Include="src\game_object\3d\block\block_blazing_emitter.h" />
+    <ClInclude Include="src\game_object\3d\block\block_blocks.h" />
+    <ClInclude Include="src\game_object\3d\block\block_burnt.h" />
+    <ClInclude Include="src\game_object\3d\block\block_change_state.h" />
+    <ClInclude Include="src\game_object\3d\block\block_disappear.h" />
+    <ClInclude Include="src\game_object\3d\block\block_dummy.h" />
+    <ClInclude Include="src\game_object\3d\block\block_fall.h" />
+    <ClInclude Include="src\game_object\3d\block\block_freeze_water_drop.h" />
+    <ClInclude Include="src\game_object\3d\block\block_freeze_water_drop_emitter.h" />
+    <ClInclude Include="src\game_object\3d\block\block_goal.h" />
+    <ClInclude Include="src\game_object\3d\block\block_ice.h" />
+    <ClInclude Include="src\game_object\3d\block\block_impact.h" />
+    <ClInclude Include="src\game_object\3d\block\block_move.h" />
+    <ClInclude Include="src\game_object\3d\block\block_physics.h" />
+    <ClInclude Include="src\game_object\3d\block\block_push.h" />
+    <ClInclude Include="src\game_object\3d\block\block_push_on_snow.h" />
+    <ClInclude Include="src\game_object\3d\block\block_repair.h" />
+    <ClInclude Include="src\game_object\3d\block\block_rotate.h" />
+    <ClInclude Include="src\game_object\3d\block\block_shadow.h" />
+    <ClInclude Include="src\game_object\3d\block\block_small_pieces.h" />
+    <ClInclude Include="src\game_object\3d\block\block_smoke.h" />
+    <ClInclude Include="src\game_object\3d\block\block_sound.h" />
+    <ClInclude Include="src\game_object\3d\block\block_water.h" />
+    <ClInclude Include="src\game_object\3d\block\block_water_drop.h" />
+    <ClInclude Include="src\game_object\3d\block\block_water_drop_emitter.h" />
+    <ClInclude Include="src\game_object\3d\block\block_wood.h" />
+    <ClInclude Include="src\game_object\3d\character\player.h" />
+    <ClInclude Include="src\game_object\3d\event_point.h" />
+    <ClInclude Include="src\game_object\3d\flame.h" />
+    <ClInclude Include="src\game_object\3d\game_object_3d.h" />
+    <ClInclude Include="src\game_object\3d\item\coin.h" />
+    <ClInclude Include="src\game_object\3d\model.h" />
+    <ClInclude Include="src\game_object\3d\polygon_3d.h" />
+    <ClInclude Include="src\game_object\3d\shadow.h" />
+    <ClInclude Include="src\game_object\3d\spawn_point.h" />
+    <ClInclude Include="src\game_object\3d\updraft.h" />
+    <ClInclude Include="src\game_object\3d\updraft_effect_emitter.h" />
+    <ClInclude Include="src\game_object\3d\water_wheel.h" />
+    <ClInclude Include="src\game_object\game_object.h" />
+    <ClInclude Include="src\game_object\game_object_factory.h" />
+    <ClInclude Include="src\game_object\impact.h" />
+    <ClInclude Include="src\game_object\snow_emitter_2d.h" />
+    <ClInclude Include="src\game_object\spring_emitter_2d.h" />
+    <ClInclude Include="src\input\input_base.h" />
+    <ClInclude Include="src\input\input_gamepad.h" />
+    <ClInclude Include="src\input\input_keyboard.h" />
+    <ClInclude Include="src\input\input_manager.h" />
+    <ClInclude Include="src\input\input_mouse.h" />
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\renderer\renderer.h" />
+    <ClInclude Include="src\resource\font.h" />
+    <ClInclude Include="src\resource\resource_manager.h" />
+    <ClInclude Include="src\resource\resource_material.h" />
+    <ClInclude Include="src\resource\resource_model.h" />
+    <ClInclude Include="src\resource\resource_texture.h" />
+    <ClInclude Include="src\resource\sound.h" />
+    <ClInclude Include="src\scene\elements\camera.h" />
+    <ClInclude Include="src\scene\elements\event_manager.h" />
+    <ClInclude Include="src\scene\elements\light.h" />
+    <ClInclude Include="src\scene\elements\physics_world.h" />
+    <ClInclude Include="src\scene\elements\shared_data.h" />
+    <ClInclude Include="src\scene\elements\time_manager.h" />
+    <ClInclude Include="src\scene\scene_base.h" />
+    <ClInclude Include="src\scene\scene_debug.h" />
+    <ClInclude Include="src\scene\scene_game.h" />
+    <ClInclude Include="src\scene\scene_load.h" />
+    <ClInclude Include="src\scene\scene_manager.h" />
+    <ClInclude Include="src\scene\scene_result.h" />
+    <ClInclude Include="src\scene\scene_title.h" />
+    <ClInclude Include="src\structures.h" />
+    <ClInclude Include="src\system\critical_section.h" />
+    <ClInclude Include="src\system\thread_pool.h" />
+    <ClInclude Include="src\system\tick.h" />
+    <ClInclude Include="src\type_alias.h" />
+    <ClInclude Include="src\utility\calculate.h" />
+    <ClInclude Include="src\utility\collision.h" />
+    <ClInclude Include="src\utility\custom_deleter.h" />
+    <ClInclude Include="src\utility\custom_json.h" />
+    <ClInclude Include="src\utility\enum.h" />
+    <ClInclude Include="src\utility\file.h" />
+    <ClInclude Include="src\utility\flag_manager.h" />
+    <ClInclude Include="src\utility\random_generator.h" />
+    <ClInclude Include="src\utility\string.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

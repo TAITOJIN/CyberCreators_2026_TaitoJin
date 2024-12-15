@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExternalIncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</ExternalIncludePath>
+    <LibraryPath>$(SolutionDir)libs\bullet3-master\include\$(Configuration);C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json-schema-validator-main\json-schema-validator-main\build\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;winmm.lib;dinput8.lib;xinput.lib;Bullet2FileLoader.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;Bullet3OpenCL_clew.lib;BulletCollision.lib;BulletDynamics.lib;BulletExampleBrowserLib.lib;BulletFileLoader.lib;BulletInverseDynamics.lib;BulletInverseDynamicsUtils.lib;BulletRobotics.lib;BulletRoboticsGUI.lib;BulletSoftBody.lib;BulletWorldImporter.lib;BulletXmlWorldImporter.lib;BussIK.lib;clsocket.lib;ConvexDecomposition.lib;GIMPACTUtils.lib;gwen.lib;HACD.lib;LinearMath.lib;OpenGLWindow.lib;nlohmann_json_schema_validator.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\student\Documents\Visual Studio 2019\02_Libraries\magic_enum-master\magic_enum-master\include\magic_enum;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json-schema-validator-main\json-schema-validator-main\src;$(SolutionDir)libs\inifile-cpp\include;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\bullet3-master\bullet3-master\src;C:\Users\student\Documents\Visual Studio 2019\02_Libraries\json\include;$(SolutionDir)libs\imgui-add-ons\include;$(SolutionDir)libs\imgui-notify\include;$(SolutionDir)libs\imgui-docking\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <WarningLevel>Level4</WarningLevel>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

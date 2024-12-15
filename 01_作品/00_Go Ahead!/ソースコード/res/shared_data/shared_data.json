@@ -1,0 +1,157 @@
+{
+    "SharedData": [
+        {
+            "FIND_COIN_ZONE": true,
+            "IDX": 0,
+            "IS_BREAK_SNOWMAN": true,
+            "JUMP_NUM": 51,
+            "MAX_ROT_VELOCITY": {
+                "x": -7.750672340393066,
+                "y": 15.10040283203125,
+                "z": -2.997326612472534
+            },
+            "NUM_IMPACT": 7,
+            "TIME_FLAME_PLAYER": 3.8163273334503174,
+            "TIME_GOAL": 208.47024536132813,
+            "TIME_ON_ICE": 13.782150268554688,
+            "TIME_TOUCH_PUSH": 2.050017833709717,
+            "TIME_UNDER_WATER": 18.863595962524414
+        },
+        {
+            "FIND_COIN_ZONE": true,
+            "IDX": 1,
+            "IS_BREAK_SNOWMAN": true,
+            "JUMP_NUM": 43,
+            "MAX_ROT_VELOCITY": {
+                "x": -10.019940376281738,
+                "y": 5.004368782043457,
+                "z": -10.796791076660156
+            },
+            "NUM_IMPACT": 4,
+            "TIME_FLAME_PLAYER": 0.5637450218200684,
+            "TIME_GOAL": 138.91348266601563,
+            "TIME_ON_ICE": 6.848024368286133,
+            "TIME_TOUCH_PUSH": 1.4670289754867554,
+            "TIME_UNDER_WATER": 12.752955436706543
+        },
+        {
+            "FIND_COIN_ZONE": true,
+            "IDX": 2,
+            "IS_BREAK_SNOWMAN": true,
+            "JUMP_NUM": 50,
+            "MAX_ROT_VELOCITY": {
+                "x": -11.717050552368164,
+                "y": 2.4064371585845947,
+                "z": -6.122811317443848
+            },
+            "NUM_IMPACT": 5,
+            "TIME_FLAME_PLAYER": 0.048712603747844696,
+            "TIME_GOAL": 141.36618041992188,
+            "TIME_ON_ICE": 2.7697501182556152,
+            "TIME_TOUCH_PUSH": 1.3354434967041016,
+            "TIME_UNDER_WATER": 12.413680076599121
+        },
+        {
+            "FIND_COIN_ZONE": true,
+            "IDX": 3,
+            "IS_BREAK_SNOWMAN": true,
+            "JUMP_NUM": 214,
+            "MAX_ROT_VELOCITY": {
+                "x": -29.415245056152344,
+                "y": -7.230587005615234,
+                "z": -17.807846069335938
+            },
+            "NUM_IMPACT": 6,
+            "TIME_FLAME_PLAYER": 0.31983140110969543,
+            "TIME_GOAL": 564.8582763671875,
+            "TIME_ON_ICE": 14.075545310974121,
+            "TIME_TOUCH_PUSH": 11.734582901000977,
+            "TIME_UNDER_WATER": 23.520811080932617
+        },
+        {
+            "FIND_COIN_ZONE": true,
+            "IDX": 4,
+            "IS_BREAK_SNOWMAN": false,
+            "JUMP_NUM": 72,
+            "MAX_ROT_VELOCITY": {
+                "x": -12.387310981750488,
+                "y": 23.57958221435547,
+                "z": -5.289846420288086
+            },
+            "NUM_IMPACT": 2,
+            "TIME_FLAME_PLAYER": 0.11554481089115143,
+            "TIME_GOAL": 125.09860229492188,
+            "TIME_ON_ICE": 14.572226524353027,
+            "TIME_TOUCH_PUSH": 4.465178489685059,
+            "TIME_UNDER_WATER": 15.670794486999512
+        },
+        {
+            "FIND_COIN_ZONE": true,
+            "IDX": 5,
+            "IS_BREAK_SNOWMAN": true,
+            "JUMP_NUM": 649,
+            "MAX_ROT_VELOCITY": {
+                "x": -2.319131851196289,
+                "y": 24.953428268432617,
+                "z": -3.103191375732422
+            },
+            "NUM_IMPACT": 6,
+            "TIME_FLAME_PLAYER": 1.1125158071517944,
+            "TIME_GOAL": 1072.718505859375,
+            "TIME_ON_ICE": 13.399602890014648,
+            "TIME_TOUCH_PUSH": 22.065418243408203,
+            "TIME_UNDER_WATER": 225.64535522460938
+        },
+        {
+            "FIND_COIN_ZONE": true,
+            "IDX": 6,
+            "IS_BREAK_SNOWMAN": true,
+            "JUMP_NUM": 476,
+            "MAX_ROT_VELOCITY": {
+                "x": 3.529268980026245,
+                "y": 11.631616592407227,
+                "z": -23.872182846069336
+            },
+            "NUM_IMPACT": 6,
+            "TIME_FLAME_PLAYER": 0.45507511496543884,
+            "TIME_GOAL": 1043.2591552734375,
+            "TIME_ON_ICE": 100.22918701171875,
+            "TIME_TOUCH_PUSH": 17.503284454345703,
+            "TIME_UNDER_WATER": 53.22994613647461
+        },
+        {
+            "FIND_COIN_ZONE": true,
+            "IDX": 7,
+            "IS_BREAK_SNOWMAN": true,
+            "JUMP_NUM": 57,
+            "MAX_ROT_VELOCITY": {
+                "x": 10.892546653747559,
+                "y": -6.769657135009766,
+                "z": -16.323974609375
+            },
+            "NUM_IMPACT": 6,
+            "TIME_FLAME_PLAYER": 0.14882570505142212,
+            "TIME_GOAL": 187.8584747314453,
+            "TIME_ON_ICE": 5.649058818817139,
+            "TIME_TOUCH_PUSH": 5.9492926597595215,
+            "TIME_UNDER_WATER": 20.668888092041016
+        },
+        {
+            "FIND_COIN_ZONE": true,
+            "IDX": 8,
+            "IS_BREAK_SNOWMAN": true,
+            "JUMP_NUM": 78,
+            "MAX_ROT_VELOCITY": {
+                "x": -17.360410690307617,
+                "y": -0.979255199432373,
+                "z": -10.043310165405273
+            },
+            "NUM_IMPACT": 5,
+            "TIME_FLAME_PLAYER": 0.0523981973528862,
+            "TIME_GOAL": 301.4090576171875,
+            "TIME_ON_ICE": 11.719789505004883,
+            "TIME_TOUCH_PUSH": 4.523763179779053,
+            "TIME_UNDER_WATER": 20.831544876098633
+        }
+    ]
+}

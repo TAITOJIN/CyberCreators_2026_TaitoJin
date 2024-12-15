@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "description": "スキーマ."
+        },
+        "Sound": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "LABEL": {
+                        "type": "integer",
+                        "description": "ラベル"
+                    },
+                    "NUM": {
+                        "type": "integer",
+                        "description": "用意する数"
+                    },
+                    "FILENAME": {
+                        "type": "string",
+                        "description": "パス"
+                    },
+                    "LOOP_CNT": {
+                        "type": "integer",
+                        "description": "ループする回数 (無限ループ -1)"
+                    },
+                    "VOLUME": {
+                        "type": "number",
+                        "description": "0.0 ~ 1.0 の間で音量を設定！"
+                    }
+                },
+                "required": [ "NUM", "FILENAME", "LOOP_CNT", "VOLUME" ],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": [ "$schema", "Sound" ],
+    "additionalProperties": false
+}

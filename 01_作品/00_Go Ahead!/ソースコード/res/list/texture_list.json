@@ -1,0 +1,32 @@
+[
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\spawn_point.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    },
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\event_point.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    },
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\none.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    },
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\GOAL_frame.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    },
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\GOAL_fill.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    }
+]

@@ -1,0 +1,1643 @@
+{
+    "$schema": "schema/_schema.json",
+    "BlocksBlock": [
+        {
+            "TAG": "main",
+            "MASS": 0.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_BROWN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 45.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 5.25,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_1_1",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN2",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 45.0,
+                "z": 15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_1_2",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 15.0,
+                "y": 45.0,
+                "z": 15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_1_3",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 15.0,
+                "y": 45.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_1_4",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -15.0,
+                "y": 45.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_1_5",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN2",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -15.0,
+                "y": 45.0,
+                "z": -15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_1_6",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 45.0,
+                "z": -15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_1",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -15.0,
+                "y": 60.0,
+                "z": 30.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_2",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 60.0,
+                "z": 30.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_3",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -30.0,
+                "y": 60.0,
+                "z": 15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_4",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN2",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -15.0,
+                "y": 60.0,
+                "z": 15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_5",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 60.0,
+                "z": 15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_6",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -30.0,
+                "y": 60.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_7",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -15.0,
+                "y": 60.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_8",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN2",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 15.0,
+                "y": 60.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_9",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 3.0,
+                "y": 60.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_10",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 60.0,
+                "z": -15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_11",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 15.0,
+                "y": 60.0,
+                "z": -15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_12",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -30.0,
+                "y": 60.0,
+                "z": -15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_13",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 60.0,
+                "z": -30.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_2_14",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN2",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 15.0,
+                "y": 60.0,
+                "z": -30.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_1",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 75.0,
+                "z": 30.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_2",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 15.0,
+                "y": 75.0,
+                "z": 30.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_3",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN2",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 75.0,
+                "z": 15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_4",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 15.0,
+                "y": 75.0,
+                "z": 15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_5",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 30.0,
+                "y": 75.0,
+                "z": 15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_6",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 15.0,
+                "y": 75.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_7",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN2",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 30.0,
+                "y": 75.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_8",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN2",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -30.0,
+                "y": 75.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_9",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -15.0,
+                "y": 75.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_10",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -30.0,
+                "y": 75.0,
+                "z": -15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_11",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -15.0,
+                "y": 75.0,
+                "z": -15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_12",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN2",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 75.0,
+                "z": -15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_13",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -15.0,
+                "y": 75.0,
+                "z": -30.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_3_14",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 75.0,
+                "z": -30.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_4_1",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -15.0,
+                "y": 90.0,
+                "z": 15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_4_2",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_4_3",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN2",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": -15.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_4_4",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 15.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_4_5",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": -15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_4_6",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN3",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 15.0,
+                "y": 90.0,
+                "z": -15.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "tree_child_5_1",
+            "MASS": 1.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "TREE_GREEN1",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 105.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        }
+    ]
+}

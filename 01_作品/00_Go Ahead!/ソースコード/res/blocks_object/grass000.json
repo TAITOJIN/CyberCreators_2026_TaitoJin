@@ -1,0 +1,83 @@
+{
+    "$schema": "../schema/blocks_object_schema.json",
+    "PhysicsBlock": [
+        {
+            "TAG": "grass000_child_long_0",
+            "MASS": 0.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "DUMMY_FLAGS": "0b",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "DEEP_GREEN",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            }
+        },
+        {
+            "TAG": "grass000_child_long_1",
+            "MASS": 0.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "DUMMY_FLAGS": "0b",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "DEEP_GREEN",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 5.0,
+                "z": 0.0
+            },
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            }
+        }
+    ]
+}
