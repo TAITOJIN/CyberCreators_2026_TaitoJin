@@ -25,9 +25,11 @@
 ## 📁 Directory
 📁01_作品<br>
  ┣ 📁00_Go Ahead!<br>
- ┃            ┣ 📁res<br>
- ┃            ┣ 📄Go Ahead!.exe<br>
- ┃            ┗ 📄readme.txt<br>
+ ┃            ┣ 📁ソースコード<br>
+ ┃            ┗ 📁実行ファイル<br>
+ ┃     &nbsp;&nbsp;&nbsp;&nbsp;       ┣ 📁res<br>
+ ┃     &nbsp;&nbsp;&nbsp;&nbsp;       ┣ 📄Go Ahead!.exe<br>
+ ┃     &nbsp;&nbsp;&nbsp;&nbsp;       ┗ 📄readme.txt<br>
  ┣ 📁01_Particly Battle!<br>
  ┃            ┣ 📁res<br>
  ┃            ┗ 📄ParticlyBattle.exe<br>
