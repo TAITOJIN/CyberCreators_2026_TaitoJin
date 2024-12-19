@@ -25,20 +25,26 @@
 ## 📁 Directory
 📁01_作品<br>
  ┣ 📁00_Go Ahead!<br>
+ ┃            ┣ 📁アピールシート<br>
+ ┃            ┣ 📁スクリーンショット<br>
  ┃            ┣ 📁ソースコード<br>
- ┃            ┗ 📁実行ファイル<br>
- ┃     &nbsp;&nbsp;&nbsp;&nbsp;       ┣ 📁res<br>
- ┃     &nbsp;&nbsp;&nbsp;&nbsp;       ┣ 📄Go Ahead!.exe<br>
- ┃     &nbsp;&nbsp;&nbsp;&nbsp;       ┗ 📄readme.txt<br>
+ ┃            ┣ 📁実行ファイル<br>
+ ┃            ┃  ┣ 📁res<br>
+ ┃            ┃  ┗ 📄Go Ahead!.exe<br>
+ ┃            ┣ 📁動画<br>
+ ┃            ┗ 📄readme.txt<br>
+ ┃<br>
  ┣ 📁01_Particly Battle<br>
  ┃            ┗ 📁実行ファイル<br>
  ┃ &nbsp;&nbsp;&nbsp;&nbsp; ┣ 📁res<br>
  ┃ &nbsp;&nbsp;&nbsp;&nbsp; ┗ 📄ParticlyBattle.exe<br>
- ┣ 02_BALL ROLLING<br>
+ ┃<br>
+ ┣ 📁02_BALL ROLLING<br>
  ┃            ┗ 📁実行ファイル<br>
  ┃ &nbsp;&nbsp;&nbsp;&nbsp; ┣ 📁data<br>
  ┃ &nbsp;&nbsp;&nbsp;&nbsp; ┗ 📄BALL ROLLING.exe<br>
- ┗ 03_AVOID LINE<br>
+ ┃<br>
+ ┗ 📁03_AVOID LINE<br>
 &nbsp;&nbsp;&nbsp; ┗ 📁実行ファイル<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ┣ 📁Data<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ┣ 📄HGS Autumn.exe<br>
