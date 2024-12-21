@@ -45,7 +45,7 @@
  ┃ &nbsp;&nbsp;&nbsp;&nbsp; ┗ 📄BALL ROLLING.exe<br>
  ┃<br>
  ┗ 📁03_AVOID LINE<br>
-&nbsp;&nbsp;&nbsp; ┗ 📁実行ファイル<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ┣ 📁Data<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ┣ 📄HGS Autumn.exe<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ┗ 📄readme.txt<br>
+&nbsp;&nbsp;&nbsp; ┣ 📁実行ファイル<br>
+&nbsp;&nbsp;&nbsp; ┃  ┣ 📁Data<br>
+&nbsp;&nbsp;&nbsp; ┃  ┗ 📄HGS Autumn.exe<br>
+&nbsp;&nbsp;&nbsp; ┗ 📄readme.txt<br>
