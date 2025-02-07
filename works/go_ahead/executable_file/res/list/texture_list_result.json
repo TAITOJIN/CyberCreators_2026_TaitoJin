@@ -1,0 +1,20 @@
+[
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\result_wave.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    },
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\best_time.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    },
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\best_coin.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    }
+]

@@ -1,0 +1,83 @@
+{
+    "$schema": "..\\schema\\sound_list_schema.json",
+    "Sound": [
+        {
+            "LABEL": 0,
+            "NUM": 1,
+            "FILENAME": "res\\sound\\bgm_game_000.wav",
+            "LOOP_CNT": -1,
+            "VOLUME": 2.0
+        },
+        {
+            "LABEL": 1,
+            "NUM": 1,
+            "FILENAME": "res\\sound\\bgm_game_001.wav",
+            "LOOP_CNT": -1,
+            "VOLUME": 2.0
+        },
+        {
+            "LABEL": 2,
+            "NUM": 1,
+            "FILENAME": "res\\sound\\bgm_game_002.wav",
+            "LOOP_CNT": -1,
+            "VOLUME": 2.0
+        },
+        {
+            "LABEL": 3,
+            "NUM": 1,
+            "FILENAME": "res\\sound\\bgm_game_000_add.wav",
+            "LOOP_CNT": -1,
+            "VOLUME": 0.25
+        },
+        {
+            "LABEL": 4,
+            "NUM": 1,
+            "FILENAME": "res\\sound\\bgm_game_001_add.wav",
+            "LOOP_CNT": -1,
+            "VOLUME": 0.25
+        },
+        {
+            "LABEL": 5,
+            "NUM": 1,
+            "FILENAME": "res\\sound\\bgm_game_002_add.wav",
+            "LOOP_CNT": -1,
+            "VOLUME": 0.25
+        },
+        {
+            "LABEL": 6,
+            "NUM": 5,
+            "FILENAME": "res\\sound\\coin001.wav",
+            "LOOP_CNT": 0,
+            "VOLUME": 0.25
+        },
+        {
+            "LABEL": 7,
+            "NUM": 1,
+            "FILENAME": "res\\sound\\bgm_bonfire_000.wav",
+            "LOOP_CNT": 0,
+            "VOLUME": 2.0
+        },
+        {
+            "LABEL": 8,
+            "NUM": 1,
+            "FILENAME": "res\\sound\\bgm_waterfall_000.wav",
+            "LOOP_CNT": 0,
+            "VOLUME": 2.0
+        },
+        {
+            "LABEL": 9,
+            "NUM": 2,
+            "FILENAME": "res\\sound\\explosion.wav",
+            "LOOP_CNT": 0,
+            "VOLUME": 1.0
+        },
+        {
+            "LABEL": 10,
+            "NUM": 1,
+            "FILENAME": "res\\sound\\bgm_game_003.wav",
+            "LOOP_CNT": -1,
+            "VOLUME": 1.0
+        }
+    ]
+}
+

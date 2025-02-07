@@ -1,0 +1,20 @@
+[
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\none.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    },
+    {
+        "ANIMATION_INTERVAL": 4,
+        "FILENAME": "res\\texture\\loading_icon.png",
+        "SUBDIVISION_COUNT_U": 6,
+        "SUBDIVISION_COUNT_V": 1
+    },
+    {
+        "ANIMATION_INTERVAL": 3,
+        "FILENAME": "res\\texture\\loading_logo.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 8
+    }
+]

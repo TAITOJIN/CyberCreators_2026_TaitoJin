@@ -1,0 +1,83 @@
+{
+    "$schema": "schema/_schema.json",
+    "BlocksBlock": [
+        {
+            "TAG": "bonfire_x_0",
+            "MASS": 0.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "WOOD_BLOCK_0",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": 0.0,
+                "y": 45.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.1,
+                "y": 0.1,
+                "z": 0.75
+            }
+        },
+        {
+            "TAG": "bonfire_x_1",
+            "MASS": 0.0,
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "DUMMY_FLAGS": "0b0",
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MAT": [
+                {
+                    "MAT_KEY": "WOOD_BLOCK_0",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": 0.0,
+                "y": -45.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 0.1,
+                "y": 0.1,
+                "z": 0.75
+            }
+        }
+    ]
+}

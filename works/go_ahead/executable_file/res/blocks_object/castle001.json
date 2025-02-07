@@ -1,0 +1,121 @@
+{
+    "BlocksBlock": [
+        {
+            "DUMMY_FLAGS": "0b0",
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MASS": 1.0,
+            "MAT": [
+                {
+                    "MAT_KEY": "FIRECRACKERS_BLACK",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 2.0
+            },
+            "TAG": "child_0"
+        },
+        {
+            "DUMMY_FLAGS": "0b0",
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MASS": 1.0,
+            "MAT": [
+                {
+                    "MAT_KEY": "FIRECRACKERS_BLACK",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 2.0
+            },
+            "TAG": "child_1"
+        },
+        {
+            "DUMMY_FLAGS": "0b0",
+            "INERTIA": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "IS_STATIC": true,
+            "KEY": "res\\model\\block000.x",
+            "MASS": 1.0,
+            "MAT": [
+                {
+                    "MAT_KEY": "FIRECRACKERS_BLACK",
+                    "MAT_NAME": 0
+                }
+            ],
+            "OFFSET": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "POS": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "PRIORITY": 6,
+            "ROT": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SCALE": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 2.0
+            },
+            "TAG": "child_3"
+        }
+    ]
+}

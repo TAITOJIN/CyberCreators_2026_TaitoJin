@@ -1,0 +1,20 @@
+[
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\title000.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    },
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\normal_player.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    },
+    {
+        "ANIMATION_INTERVAL": 0,
+        "FILENAME": "res\\texture\\smile_player.png",
+        "SUBDIVISION_COUNT_U": 1,
+        "SUBDIVISION_COUNT_V": 1
+    }
+]
