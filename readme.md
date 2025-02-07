@@ -21,11 +21,18 @@ Thank you for viewing.
 🔗[Youtube](https://www.youtube.com/@jobigame)
 
 # 🎮 My Works
+<!-- VERSUS -->
 <details>
+  
 <summary>VERSUS (24.10.23 ~ 25.01.31)</summary>
-- 📁versus<br>
- - 📁assets<br>
- - 📄versus.exe<br>
-> [!CAUTION]<br>
-> Functional levels 12_0 and 12_1 are required. 
+
+- 📁versus
+  - 📁assets
+  - 📄versus.exe
+ 
 </details>
+
+> [!CAUTION]
+> VERSUS requires functional levels 12_0 and 12_1.
+
+
