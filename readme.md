@@ -24,15 +24,53 @@ Thank you for viewing.
 <!-- VERSUS -->
 <details>
   
-<summary>VERSUS (24.10.23 ~ 25.01.31)</summary>
+<summary> VERSUS ( 23/10/2024 ~ 31/01/2025 ) </summary>
 
-- 📁versus
-  - 📁assets
-  - 📄versus.exe
+<img src="works/versus/screenshot/screenshot000.png" alt="thumbnail" title="サムネ">
+
+- 📁versus<br><br>
+  - 📁appeal_sheet
+    - 📄appeal_sheet.pdf<br><br>
+  - 📁executable_file
+    - 📁assets
+    - 📄versus.exe<br><br>
+  - 📁pv
+    - 📄pv.mp4
+    - 📄thumbnail.png<br><br>
+  - 📁screenshot
+    - 📄screenshot000.png
+    - 📄screenshot001.png
+    - 📄screenshot002.png<br><br>
+  - 📄readme.txt
  
 </details>
 
 > [!CAUTION]
 > VERSUS requires functional levels 12_0 and 12_1.
 
+<!-- Go Ahead! -->
+<details>
+  
+<summary> Go Ahead! ( late 07/2024 ~ 29/09/2024 ) </summary>
 
+<img src="works/go_ahead/screenshot/000_title.png" alt="thumbnail" title="サムネ">
+
+- 📁go_ahead<br><br>
+  - 📁appeal_sheet
+    - 📄appeal_sheet.pdf<br><br>
+  - 📁executable_file
+    - 📁res
+    - 📄go_ahead.exe<br><br>
+  - 📁pv
+    - 📄pv.mp4<br><br>
+  - 📁screenshot
+    - 📄000_title.png
+    - 📄001_spring.png
+    - 📄002_summer.png
+    - 📄003_autumn.png
+    - 📄004_winter.png
+    - 📄005_result.png
+    - 📄006_snowman.png<br><br>
+  - 📄readme.txt
+ 
+</details>
