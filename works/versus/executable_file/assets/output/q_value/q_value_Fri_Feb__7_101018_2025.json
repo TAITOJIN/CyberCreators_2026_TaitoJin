@@ -1,0 +1,65 @@
+{
+    "Avoiding": {
+        "Avoiding": 0.0,
+        "Idle": 0.0,
+        "MovingHorizontallyToAvoidPlayer": 0.02500000037252903,
+        "MovingRandom": 0.0,
+        "MovingToPlayer": 0.032499998807907104,
+        "NormalAttacking": 0.09478232264518738,
+        "Skill": 0.1698366403579712
+    },
+    "Idle": {
+        "Avoiding": 0.0,
+        "Idle": 0.20943759381771088,
+        "MovingHorizontallyToAvoidPlayer": 0.0,
+        "MovingRandom": 0.0,
+        "MovingToPlayer": 0.0,
+        "NormalAttacking": 0.6099044680595398,
+        "Skill": 0.0
+    },
+    "MovingHorizontallyToAvoidPlayer": {
+        "Avoiding": 0.0,
+        "Idle": 0.0,
+        "MovingHorizontallyToAvoidPlayer": 0.0,
+        "MovingRandom": 0.0,
+        "MovingToPlayer": 0.0,
+        "NormalAttacking": 0.09750000387430191,
+        "Skill": 0.0
+    },
+    "MovingRandom": {
+        "Avoiding": -0.03958333283662796,
+        "Idle": 0.1023775041103363,
+        "MovingHorizontallyToAvoidPlayer": 0.010000000707805157,
+        "MovingRandom": 0.0,
+        "MovingToPlayer": 0.0,
+        "NormalAttacking": 0.4663376808166504,
+        "Skill": 0.0
+    },
+    "MovingToPlayer": {
+        "Avoiding": 0.0,
+        "Idle": 0.0,
+        "MovingHorizontallyToAvoidPlayer": 0.0,
+        "MovingRandom": 0.0,
+        "MovingToPlayer": 0.0,
+        "NormalAttacking": 0.15997222065925598,
+        "Skill": 0.0
+    },
+    "NormalAttacking": {
+        "Avoiding": 0.0,
+        "Idle": 0.07651688903570175,
+        "MovingHorizontallyToAvoidPlayer": 0.0,
+        "MovingRandom": 0.09402401000261307,
+        "MovingToPlayer": 0.032499998807907104,
+        "NormalAttacking": -0.05041128396987915,
+        "Skill": 0.0
+    },
+    "Skill": {
+        "Avoiding": 0.0,
+        "Idle": 0.010000000707805157,
+        "MovingHorizontallyToAvoidPlayer": 0.0,
+        "MovingRandom": 0.0,
+        "MovingToPlayer": 0.0,
+        "NormalAttacking": 0.0,
+        "Skill": 0.0
+    }
+}

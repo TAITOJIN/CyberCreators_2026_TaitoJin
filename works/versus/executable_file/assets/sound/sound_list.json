@@ -1,0 +1,27 @@
+{
+    "$schema": "..\\schema\\sound_list_schema.json",
+    "Sound": [
+        {
+            "LABEL": 0,
+            "NUM": 1,
+            "FILENAME": "assets\\sound\\bgm_main.wav",
+            "LOOP_CNT": -1,
+            "VOLUME": 2.0
+        },
+        {
+            "LABEL": 1,
+            "NUM": 1,
+            "FILENAME": "assets\\sound\\bgm_earthquake.wav",
+            "LOOP_CNT": 100,
+            "VOLUME": 2.0
+        },
+        {
+            "LABEL": 2,
+            "NUM": 10,
+            "FILENAME": "assets\\sound\\se_shot.wav",
+            "LOOP_CNT": 0,
+            "VOLUME": 2.0
+        }
+    ]
+}
+
